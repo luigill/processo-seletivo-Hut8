@@ -6,6 +6,7 @@ let result = valueOne + valueTwo;
 console.log(valueOne + ' + ' + valueTwo + ' = ' + result);
 
 //Formato utilizando Template String
+//É utilizado a crase `` para esse método de criação de strings
 console.log(`${valueOne} + ${valueTwo} = ${result}`);
 
 let nome = 'Lui';
