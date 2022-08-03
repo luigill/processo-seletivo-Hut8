@@ -9,4 +9,3 @@ for (let i = 0; i < value.length; i++) {
 
 value[0] = 'M';
 console.log(value);
-console.log(value[0]);
