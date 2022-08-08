@@ -38,7 +38,9 @@ function formatCpf(string) {
 function formatTelefone(string) {
   let telefone = cadastro.telefone.toString();
   return (
+    '(' +
     telefone.slice(0, 2) +
+    ')' +
     ' ' +
     telefone.slice(2, 6) +
     '-' +
